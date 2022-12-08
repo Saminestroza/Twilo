@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root{
+	--color-general: #03363d;
+	--color-verde: #68b06e;
+	--fondo-verde: #10393b;
+	--color-naranja: #ff8945;
+	--color-titulos: #0b363d;
+	--fondo-cards: #f6f9f9;
+	
+}
+
+
+header{
+	background-color: var(--fondo-verde);
+	padding: 25px 0;	
+}
+header img{
+	width: 120px;
+}
+
+body{
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	color: var(--color-general);}
+
+#hero{
+    background-image: url("file:///C:/Users/samar/OneDrive/Documentos/UNITEC/Q4%202022/Dise%C3%B1o%20web%20I/Twilo/Twilo/img/bg-img-01.png");
+	background-position: top center;
+	background-size: cover;
+	background-color: var(--fondo-verde);
+	padding: 5% 0;
+}
+
+#hero h1{
+	font: 'Raleway' sans-serif;
+	color: #fff;
+	font-size: 70px;
+	font-weight: 800;
+	
+}
+
+.color-naranja{
+	color: var(--color-naranja);
+}
+
+.btn-naranja{
+	background-color: var(--color-naranja);
+	color: #fff;
+	padding: 14px 30px;
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	
+}
+.btn-naranja:hover{
+	background-color: #f4722c;
+	color: #fff;
+	
+}
+
+
+.btn-verde{
+	background-color: var(--fondo-verde);
+	color: #fff;
+	padding: 14px 30px;
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	
+}
+
+.btn-verde:hover{
+	background-color: #00272b;
+	color: #fff;
+	
+}
+.section{
+	padding: 60px 0px;
+	
+}
+.titulo{
+	color: var(--color-titulos);
+	font-weight: 800;
+	font-size: 60px;
+	margin-bottom: 30px;
+
+}	
+
+.subtitulo{
+	color: var(--color-verde);
+	letter-spacing: 2px;
+	font-size: 17px;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+
+.link-naranja{
+    color: var(--color-naranja);
+	font-weight: 600;
+	border-bottom: 1px solid var(--color-naranja);
+	padding-bottom: 5px;
+
+}
+
+.link-naranja:hover{
+	color: var(--color-naranja);
+	opacity: 0.8;
+	
+}
+
+#features .card{
+	background-color: var(--fondo-cards);
+	padding: 20px;
+	border: none;
+	border-bottom: 3px solid #fac56b;
+	border-radius: 0px;
+	
+}
+
+#features .card h3{
+	font-size: 22px;
+	font-weight: 800;
+	
+}
+#hero p{
+   color: #618a8d;
+   font-weight: 600;
+   margin-top: 20px;
+   margin-bottom: 30px;
+	
+}
+
+a{
+	text-decoration: none;
+}
+#form-contact{
+	padding: 30px 30px;
+}
+
+#form-contact h3{ 
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 35px;
+}
+
+#form-contact li{
+	margin-bottom: 20px;
+}
+
+#form-contact .la-map-marker{ 
+  color: #FAC56B;
+  font-size: 20px;
+}
+
+#form-contact .la-phone{
+	color: #0085F2;
+	font-size: 20px;
+	
+}
+
+#form-contact .la-envelope{ 
+  color: #FF5C00;
+  font-size: 20px;
+
+}
+
+#form-contact .info-form{
+	margin-top: -10%;
+	background-color: #fff;
+	padding: 25px 30px 50px;
+	text-align: center;
+	box-shadow: 0px 15px 30px 0px #eee;
+	
+}
+
+#form-contact input,
+#form-contact textarea{
+	padding: 10px;
+	border-radius: 0;
+	background-color: #fbfbfb;
+	border: 0;
+	
+}
+
+.margin{ 
+   margin-top: 60px;
+}
+
+
+.small{
+	font-size: 12px;
+	color: #000000;
+}
+
+.cita{ 
+	border-left: 2px solid var(--color-general);
+	padding-left: 40px;
+	margin-top: 40px;
+	font-weight: 600;
+	
+
+}
+
+.cita h5{
+	font-size: 16px;
+	font-weight: 800;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	
+}
+
+#hero-title{
+	background-size: cover;
+	background-position: top center;
+	background-color: var(--fondo-verde);
+	padding-top: 10%;
+	padding-bottom: 20px;
+
+}
+
+#hero-title h2{
+	color: #fff;
+	font-size: 60px;
+}
+
