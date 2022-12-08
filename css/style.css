@@ -225,3 +225,41 @@ a{
 	font-size: 60px;
 }
 
+.img-hover img{
+	opacity: 0.6;
+	transition: all 0.3s ease-in-out;
+}
+.img-hover img:hover{
+	opacity: 1;
+	transition: all 0.3s ease-in-out;
+	
+}
+
+footer h3{
+	font-size: 20px;
+	font-weight: 700;
+	color: #10393b;
+	margin-bottom: 25px;
+}
+
+footer{
+	padding: 60px 0;
+	background-color: #fafafa;
+	margin-top: 50px;
+}
+
+footer a{
+	color: var(--color-general);
+	font-size: 14px;
+}
+
+footer a:hover{
+	color: var(--color-naranja);
+	font-size: 14px;
+}
+
+footer img{
+	margin-bottom: 30px;
+}
+
+
